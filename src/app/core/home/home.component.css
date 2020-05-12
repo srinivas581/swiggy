@@ -1,0 +1,142 @@
+.food-img img{
+    width: 100%;
+    height: 625px;
+    object-fit: cover;
+    clip-path: polygon(0% -496px, 0px 100%, 100% 184%);
+    
+}
+.food-img{
+    background:#F2F2F2
+}
+.head-position{
+position: relative;
+}
+.header-menu{
+position:absolute;
+top: 0;
+width: 100%;
+padding-top: 15px;
+}
+.pull-left img{
+    height: 49px;
+    width: 100px;
+    object-fit: contain;
+
+}
+h3{
+    display: inline;
+    color: #fff;
+    font-size: 35px;
+    vertical-align: middle;
+    font-family: fantasy;
+}
+a{
+    margin-right: 15px;
+    font-size: 11px;
+    color: #03AFF0;
+}
+.align-btn{
+    padding-right: 37px;
+}
+.sign-btn{
+    background: #03AFF0;
+    opacity: 1;
+    font-size: 11px;
+    height: 25px;
+    border: none;
+}
+
+.inner h4{
+margin: 15px;
+font-size: 50px;
+font-family: fantasy;
+
+}
+.outer {
+    display: table;
+    position: absolute;
+    /* top: 3px; */
+    left: 35%;
+    /* height: 100%; */
+    width: 50%;
+    right: 50%;
+    bottom: 67%;
+  }
+  
+  .middle {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  .inner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    /*whatever width you want*/
+  }
+  .inner small{
+    font-size: 115%;
+    font-weight: bold;
+    font-family: fantasy;
+    margin-left: 20px;
+  }
+  .v-box{
+    display: table;
+    position: absolute;
+    left: 52%;
+    width: 40%;
+    right: 50%;
+    bottom: 46%;
+}
+.v-box h2{
+    font-size: 35px;
+    font-family: fantasy;
+    color: #ffa500;
+}
+.locat{
+    display: table;
+    position: absolute;
+    left: 63%;
+    width: 30%;
+    right: 41%;
+    bottom: 30%;
+
+}
+.locat .location{
+position: absolute;
+padding: 7px;
+color: #03AFF0;
+font-size: 18px;
+}
+.pad{
+    padding-left: 30px;
+    width: 200px;
+    display: inline;
+    border-radius: 0;
+    height: 32px;
+    font-size: 12px;
+}
+.food-btn{
+    display: inline;
+}
+.food-btn button{
+    border-radius: 0;
+    padding: 8px 12px;
+    font-size: 11px;
+    border: none;
+    background: #03AFF0;
+}
+.dwld-btn{
+    
+    position: absolute;
+    bottom: 5%;
+    right: 16%;
+}
+.dwld-btn button{
+    background: #F8A22F;
+    color: #fff;
+}
+.food-img1 img{
+    width: 100%;
+    object-fit: cover;
+}
